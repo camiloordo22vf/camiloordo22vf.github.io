@@ -7847,9 +7847,12 @@ textarea.form-control-lg {
 }
 
 .bg-header{
-  background-color: #2CDE00;
+  background-color: #32860B;
 }
 
+.gradiente {
+  background-image: linear-gradient(to bottom right,#1978F9,#367709, #60F919,#5BDC00,#FFFFFF)
+}
 
 .bg-dark {
   --bs-bg-opacity: 1;
