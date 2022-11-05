@@ -7845,9 +7845,30 @@ textarea.form-control-lg {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
-
+.texto-borde {
+  -webkit-text-stroke: 1px white;
+  color: black; 
+}
 .bg-header{
   background-color: #32860B;
+}
+.flex-izq{ 
+  
+  align-items: flex-start;
+  justify-content: left;
+  width: 400px;
+  height: 200px;
+  
+}
+
+#img-f{
+  background-image: url(/Agro-prototipos/css/7394046.svg);
+  background-attachment: fixed;
+  display: inline-block;
+  height: auto;
+  background-size: auto;
+  
+
 }
 
 .gradiente {
