@@ -889,7 +889,7 @@ progress {
 
 .g-5,
 .gx-5 {
-  --bs-gutter-x: 3rem;
+  --bs-gutter-x: rem;
 }
 
 .g-5,
@@ -7853,22 +7853,21 @@ textarea.form-control-lg {
   background-color: #32860B;
 }
 .flex-izq{ 
-  
   align-items: flex-start;
-  justify-content: left;
-  width: 400px;
-  height: 200px;
-  
+  width: 450px;
+  height: 400px;
 }
 
 #img-f{
   background-image: url(/Agro-prototipos/css/7394046.svg);
-  background-attachment: fixed;
   display: inline-block;
-  height: auto;
-  background-size: auto;
-  
+  background-position: 0%;
+  background-size: cover;
+}
 
+.texto-b {
+  -webkit-text-stroke: 1px white;
+  color: black; 
 }
 
 .gradiente {
