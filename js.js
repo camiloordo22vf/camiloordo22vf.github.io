@@ -1,3 +1,3 @@
 function hola (){
-    alert("saludos esta es mi pagina web");
+    alert("esta es mi pagina web");
 }
